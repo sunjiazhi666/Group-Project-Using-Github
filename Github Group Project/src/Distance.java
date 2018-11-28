@@ -19,7 +19,7 @@ public class Distance
 				
 				System.out.println("Key in the number");
 				Scanner userinput2 = new Scanner(System.in);
-				double number = userinput2.nextDouble();
+				double number = userinput2.nextDouble();//
 				
 				System.out.println("Which unit you want to convert to?");
 				System.out.println("1. Meter");
