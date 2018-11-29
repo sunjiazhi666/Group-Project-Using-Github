@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class Distance
 	{
-		
+		public static void main(String[] args)
+			{
+				distanceConvert();
+			}
 		public static void distanceConvert()
 			{
 				boolean keep = true;
@@ -161,5 +164,5 @@ public class Distance
 
 			}
 			}
-
-	}
+			}
+	
