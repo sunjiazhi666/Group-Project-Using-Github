@@ -127,23 +127,23 @@ public class Distance
 				
 				else if(firstUnitPick == 5){
 					if(secondUnitPick == 1){
-						System.out.println(number + " kilometers are equal to " + number*1609.344 + " meters");
+						System.out.println(number + " miles are equal to " + number*1609.344 + " meters");
 					}
 					
 					else if(secondUnitPick == 2){
-						System.out.println(number + " kilometers are equal to " + number*0.609344 + " kilometers");
+						System.out.println(number + " miles are equal to " + number*1.609344 + " kilometers");
 					}
 					
 					else if(secondUnitPick == 3){
-						System.out.println(number + " kilometers are equal to " + number*5280 + " feet");
+						System.out.println(number + " miles are equal to " + number*5280 + " feet");
 					}
 					
 					else if(secondUnitPick == 4){
-						System.out.println(number + " kilometers are equal to " + number*63360 + " inches");
+						System.out.println(number + " miles are equal to " + number*63360 + " inches");
 					}
 					
 					else if(secondUnitPick == 5){
-						System.out.println(number + " kilometers are equal to " + number + " miles");
+						System.out.println(number + " miles are equal to " + number + " miles");
 					}
 					
 				}
